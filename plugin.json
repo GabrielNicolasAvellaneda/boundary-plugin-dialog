@@ -1,0 +1,50 @@
+{
+    "description": "Example plugin that shows all of the options for paramSchema",
+    "command": "python index.py",
+    "metrics" : [
+                 "BOUNDARY_DIALOG_METRIC"
+                ],
+    "paramArray": { "itemTitle": [ "name" ], "schemaTitle": "Example Dialgo Configuration" },
+    "paramSchema": [
+        {
+            "title": "String Type",
+            "name": "string",
+            "description": "A simple text field. Can have a default value and be required.",
+            "type": "string",
+            "default": "hello",
+            "required": true
+        },
+        {
+            "title" : "Password Type",
+            "name" : "password",
+            "description" : "A simple text field that obsecures the text.",
+            "type" : "password"
+        },
+        {
+            "title": "Boolean Type",
+            "name": "boolean",
+            "description": "A checkbox field. Can have a default value and be required",
+            "type": "boolean",
+            "default": false,
+            "required": false
+	},
+        {
+            "title": "Enum Type",
+            "name": "enum",
+            "description": "A dropdown list of enumerated values. Can have a default and be required",
+            "type" : { "enum" : [["Red", "red"], ["Green", "greeen"], ["Blue","blue"] },
+            "default" : "red",
+            "required": true
+        },
+        {
+            "title": "Array Type",
+            "name": "array",
+            "description": "",
+            "type" : "array",
+            "items" : {
+                "type" : "string"
+            }
+        }
+    ]
+}
+
