@@ -1,0 +1,14 @@
+{
+    "result": [
+        {
+            "defaultAggregate": "AVG",
+            "defaultResolutionMS": 1000,
+            "description": "Example metric for the dialog plugin",
+            "displayName": "Dialog Metric",
+            "displayNameShort": "Dialog Metric",
+            "isDisabled": 0,
+            "name": "BOUNDARY_DIALOG_METRIC",
+            "unit": "number"
+        }
+    ]
+}
