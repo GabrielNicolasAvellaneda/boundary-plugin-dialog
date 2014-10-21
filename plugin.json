@@ -4,7 +4,7 @@
     "metrics" : [
                  "BOUNDARY_DIALOG_METRIC"
                 ],
-    "paramArray": { "itemTitle": [ "name" ], "schemaTitle": "Example Dialgo Configuration" },
+    "paramArray": { "itemTitle": [ "string" ], "schemaTitle": "Example Dialgo Configuration" },
     "paramSchema": [
         {
             "title": "String Type",
