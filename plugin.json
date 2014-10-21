@@ -32,7 +32,7 @@
             "title": "Enum Type",
             "name": "enum",
             "description": "A dropdown list of enumerated values. Can have a default and be required",
-            "type" : { "enum" : [["Red", "red"], ["Green", "greeen"], ["Blue","blue"] },
+            "type" : { "enum" : [["Red", "red"], ["Green", "greeen"], ["Blue","blue"]] },
             "default" : "red",
             "required": true
         },
