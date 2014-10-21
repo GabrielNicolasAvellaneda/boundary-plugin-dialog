@@ -49,6 +49,13 @@
             "description": "",
             "type" : "array",
             "items" : { "type" : "boolean" }
+        },
+        {
+            "title": "Enum Array Type",
+            "name": "array",
+            "description": "",
+            "type" : "array",
+            "items" : { "type" : "enum" }
         }
     ]
 }
